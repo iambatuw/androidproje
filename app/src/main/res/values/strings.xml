@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LibroQuest</string>
+    <string name="app_subtitle">Kütüphane Yönetim ve Araştırma Platformu</string>
+
+    <!-- Login -->
+    <string name="kullanici_adi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="sifremi_unuttum">Şifremi Unuttum</string>
+    <string name="kayit_ol">Kayıt Ol</string>
+    <string name="kullanici_adi_hint">Örn: a.yilmaz</string>
+    <string name="sifre_hint">••••••••</string>
+
+    <!-- Register -->
+    <string name="kayit_baslik">Akademik Serüveninize Başlayın</string>
+    <string name="kayit_altbaslik">Kütüphane ekosistemine katılmak için bilgilerinizi girin.</string>
+    <string name="ad">Ad</string>
+    <string name="soyad">Soyad</string>
+    <string name="cinsiyet">Cinsiyet</string>
+    <string name="sinif">Sınıf</string>
+    <string name="ad_hint">Örn: Ayşe</string>
+    <string name="soyad_hint">Örn: Yılmaz</string>
+    <string name="sinif_hint">Örn: 10/A</string>
+    <string name="seciniz">Seçiniz</string>
+    <string name="kadin">Kadın</string>
+    <string name="erkek">Erkek</string>
+    <string name="belirtmek_istemiyorum">Belirtmek İstemiyorum</string>
+    <string name="hosgeldin_hediye">Yeni bir araştırmacı olarak, hesabınız aktifleştirildiğinde anında 100 başlangıç puanı kazanacaksınız.</string>
+    <string name="hesabiniz_var_mi">Hesabınız var mı? Giriş Yapın</string>
+    <string name="sifre_kural">En az 6 karakter içermelidir.</string>
+    <string name="benzersiz_kullanici_adi">Benzersiz bir kullanıcı adı belirleyin</string>
+    <string name="guclu_sifre">Güçlü bir şifre girin</string>
+
+    <!-- Forgot Password -->
+    <string name="sifremi_unuttum_baslik">Şifre Sıfırlama</string>
+    <string name="yeni_sifre">Yeni Şifre</string>
+    <string name="sifre_guncelle">Şifreyi Güncelle</string>
+
+    <!-- Dashboard -->
+    <string name="merhaba">Merhaba %1$s, Hoşgeldin</string>
+    <string name="kutuphane_mesaj">Kütüphanene geri dönmek ne güzel. Yeni keşifler seni bekliyor.</string>
+    <string name="admin_baslik">Yönetici Paneli</string>
+    <string name="admin_altbaslik">LibroQuest Yönetim Paneli</string>
+    <string name="mevcut_bakiye">Mevcut Bakiyen</string>
+    <string name="puan">Puan</string>
+
+    <!-- Admin Buttons -->
+    <string name="kitap_odunc_ver">Kitap Ödünç Ver</string>
+    <string name="kitap_kayit_et">Kitap Kayıt Et</string>
+    <string name="yazar_kaydi">Yazar Kaydı</string>
+    <string name="kitap_listesi">Kitap Listesi</string>
+    <string name="gecikenler_listesi">Gecikenler Listesi</string>
+    <string name="uye_yonetimi">Üye Yönetimi</string>
+
+    <!-- User Buttons -->
+    <string name="odunc_kitaplarim">Ödünç Kitaplarım</string>
+    <string name="kitap_katalogu">Kitap Kataloğu</string>
+    <string name="kitap_turleri">Kitap Türleri</string>
+    <string name="puanlarim">Puanlarım</string>
+    <string name="profilim">Profilim</string>
+    <string name="cikis_yap">Çıkış Yap</string>
+
+    <!-- General -->
+    <string name="kaydet">Kaydet</string>
+    <string name="iptal">İptal</string>
+    <string name="sil">Sil</string>
+    <string name="guncelle">Güncelle</string>
+    <string name="geri">Geri</string>
+    <string name="tamam">Tamam</string>
+    <string name="yukleniyor">Yükleniyor…</string>
+    <string name="hata">Hata</string>
+    <string name="basarili">Başarılı</string>
+    <string name="uyari_gonder">Uyarı Gönder</string>
+    <string name="hatırlat">Hatırlat</string>
+    <string name="teslim_al">Teslim Al</string>
+    <string name="gun_kaldi">%1$d Gün Kaldı</string>
+    <string name="gun_gecikme">%1$d Gün Gecikme</string>
+    <string name="puan_dususu">-%1$d Puan</string>
+
+    <!-- Kitap Kayıt -->
+    <string name="kitap_adi">Kitap Adı</string>
+    <string name="yazar_sec">Yazar Seçiniz</string>
+    <string name="tur_sec">Tür Seçiniz</string>
+    <string name="isbn">ISBN</string>
+    <string name="sayfa_sayisi">Sayfa Sayısı</string>
+    <string name="stok_adedi">Stok Adedi</string>
+
+    <!-- Yazar Kayıt -->
+    <string name="yazar_adi">Yazar Adı</string>
+    <string name="yazar_soyadi">Yazar Soyadı</string>
+
+    <!-- Ödünç Ver -->
+    <string name="uye_sec">Üye Seçiniz</string>
+    <string name="kitap_sec">Kitap Seçiniz</string>
+    <string name="teslim_tarihi">Teslim Tarihi</string>
+    <string name="odunc_ver">Ödünç Ver</string>
+
+    <!-- Gecikenler -->
+    <string name="geciken_kitaplar">Geciken Kitaplar</string>
+    <string name="puan_sistemi_bilgi">Kütüphane ekosistemini sağlıklı tutmak için geciken her kitap puan düşürür.</string>
+    <string name="kural_1_3">1–3 Gün Gecikme: Günlük -5 Puan</string>
+    <string name="kural_4_7">4–7 Gün Gecikme: Günlük -10 Puan</string>
+    <string name="kural_7_plus">7+ Gün Gecikme: Hesap Askıya Alınır</string>
+</resources>

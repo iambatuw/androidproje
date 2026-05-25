@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LibroQuest Design System Colors -->
+    <color name="primary">#00163C</color>
+    <color name="primary_container">#0F2B5B</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#7C94CA</color>
+    <color name="inverse_primary">#AFC6FF</color>
+
+    <color name="secondary">#5E5E5B</color>
+    <color name="secondary_container">#E1DFDB</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#63635F</color>
+
+    <color name="tertiary">#281300</color>
+    <color name="tertiary_container">#442502</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="on_tertiary_container">#BA8A5E</color>
+    <color name="tertiary_fixed">#FFDCBF</color>
+    <color name="on_tertiary_fixed">#2D1600</color>
+
+    <color name="error">#BA1A1A</color>
+    <color name="error_container">#FFDAD6</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#93000A</color>
+
+    <color name="surface">#FBF9F8</color>
+    <color name="surface_dim">#DBD9D9</color>
+    <color name="surface_container">#EFEDED</color>
+    <color name="surface_container_low">#F5F3F3</color>
+    <color name="surface_container_lowest">#FFFFFF</color>
+    <color name="surface_container_high">#EAE8E7</color>
+    <color name="surface_container_highest">#E4E2E2</color>
+    <color name="surface_variant">#E4E2E2</color>
+    <color name="on_surface">#1B1C1C</color>
+    <color name="on_surface_variant">#44474F</color>
+
+    <color name="outline">#747780</color>
+    <color name="outline_variant">#C4C6D0</color>
+
+    <color name="primary_fixed">#D9E2FF</color>
+    <color name="primary_fixed_dim">#AFC6FF</color>
+    <color name="on_primary_fixed">#001A43</color>
+
+    <color name="surface_tint">#465E90</color>
+    <color name="inverse_surface">#303030</color>
+    <color name="inverse_on_surface">#F2F0F0</color>
+
+    <!-- Functional -->
+    <color name="success">#1B6D2E</color>
+    <color name="success_bg">#E8F5E9</color>
+    <color name="warning">#F9A825</color>
+    <color name="warning_bg">#FFF8E1</color>
+    <color name="danger_bg">#FFDAD6</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

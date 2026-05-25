@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/surface"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="8dp">
+        <ImageButton android:id="@+id/btnGeri" android:layout_width="40dp" android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless" android:src="@android:drawable/ic_menu_revert" app:tint="@color/primary" android:contentDescription="@string/geri"/>
+        <com.google.android.material.textview.MaterialTextView android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:gravity="center" android:text="@string/kitap_kayit_et" android:textColor="@color/primary"
+            android:textSize="18sp" android:textStyle="bold" android:fontFamily="serif"/>
+        <View android:layout_width="40dp" android:layout_height="40dp"/>
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:fillViewport="true">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp" android:paddingBottom="80dp">
+
+            <com.google.android.material.textview.MaterialTextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/kitap_adi" android:textColor="@color/on_surface_variant" android:textSize="12sp" android:textStyle="bold"
+                android:layout_marginBottom="6dp" android:layout_marginStart="4dp"/>
+            <EditText android:id="@+id/etKitapAdi" android:layout_width="match_parent" android:layout_height="48dp"
+                android:background="@drawable/bg_input_field" android:hint="Kitap adını giriniz" android:inputType="text"
+                android:paddingHorizontal="16dp" android:textSize="14sp" android:textColor="@color/on_surface" android:textColorHint="@color/outline"/>
+
+            <com.google.android.material.textview.MaterialTextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/yazar_sec" android:textColor="@color/on_surface_variant" android:textSize="12sp" android:textStyle="bold"
+                android:layout_marginBottom="6dp" android:layout_marginStart="4dp" android:layout_marginTop="16dp"/>
+            <Spinner android:id="@+id/spinnerYazar" android:layout_width="match_parent" android:layout_height="48dp"
+                android:background="@drawable/bg_input_field" android:paddingHorizontal="16dp"/>
+
+            <com.google.android.material.textview.MaterialTextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/tur_sec" android:textColor="@color/on_surface_variant" android:textSize="12sp" android:textStyle="bold"
+                android:layout_marginBottom="6dp" android:layout_marginStart="4dp" android:layout_marginTop="16dp"/>
+            <Spinner android:id="@+id/spinnerTur" android:layout_width="match_parent" android:layout_height="48dp"
+                android:background="@drawable/bg_input_field" android:paddingHorizontal="16dp"/>
+
+            <com.google.android.material.textview.MaterialTextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/isbn" android:textColor="@color/on_surface_variant" android:textSize="12sp" android:textStyle="bold"
+                android:layout_marginBottom="6dp" android:layout_marginStart="4dp" android:layout_marginTop="16dp"/>
+            <EditText android:id="@+id/etISBN" android:layout_width="match_parent" android:layout_height="48dp"
+                android:background="@drawable/bg_input_field" android:hint="978-XXX-XX-XXXX-X" android:inputType="text"
+                android:paddingHorizontal="16dp" android:textSize="14sp" android:textColor="@color/on_surface" android:textColorHint="@color/outline"/>
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:orientation="horizontal">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginEnd="8dp">
+                    <com.google.android.material.textview.MaterialTextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/sayfa_sayisi" android:textColor="@color/on_surface_variant" android:textSize="12sp" android:textStyle="bold"
+                        android:layout_marginBottom="6dp" android:layout_marginStart="4dp"/>
+                    <EditText android:id="@+id/etSayfaSayisi" android:layout_width="match_parent" android:layout_height="48dp"
+                        android:background="@drawable/bg_input_field" android:hint="0" android:inputType="number"
+                        android:paddingHorizontal="16dp" android:textSize="14sp" android:textColor="@color/on_surface" android:textColorHint="@color/outline"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="8dp">
+                    <com.google.android.material.textview.MaterialTextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/stok_adedi" android:textColor="@color/on_surface_variant" android:textSize="12sp" android:textStyle="bold"
+                        android:layout_marginBottom="6dp" android:layout_marginStart="4dp"/>
+                    <EditText android:id="@+id/etStokAdedi" android:layout_width="match_parent" android:layout_height="48dp"
+                        android:background="@drawable/bg_input_field" android:hint="1" android:inputType="number"
+                        android:paddingHorizontal="16dp" android:textSize="14sp" android:textColor="@color/on_surface" android:textColorHint="@color/outline"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ProgressBar android:id="@+id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_gravity="center" android:layout_marginTop="16dp" android:visibility="gone" android:indeterminateTint="@color/primary"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/surface"
+        android:elevation="8dp" android:padding="16dp">
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnKaydet" android:layout_width="match_parent" android:layout_height="56dp"
+            android:backgroundTint="@color/primary" android:text="@string/kaydet" android:textAllCaps="false" android:textColor="@color/on_primary"
+            android:textSize="14sp" app:cornerRadius="12dp"/>
+    </LinearLayout>
+</LinearLayout>
